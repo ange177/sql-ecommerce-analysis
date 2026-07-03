@@ -1,0 +1,9 @@
+Reason,Status,Return_Count,Total_Refund
+"Changed Mind",Approved,7,2400.97
+"Not Satisfied",Approved,4,1450.07
+Defective,Pending,3,1079.51
+"Wrong Item",Approved,5,1012.72
+Defective,Approved,5,858.87
+Damaged,Pending,2,644.62
+Damaged,Approved,3,498.02
+Damaged,Rejected,1,20.44

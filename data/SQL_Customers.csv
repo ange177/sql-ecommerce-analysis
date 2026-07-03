@@ -1,0 +1,151 @@
+Customer_ID,Customer_Name,Email,Phone,City,State,Country,Segment,Registration_Date
+C0001,Customer_1,customer1@email.com,555-2772,Houston,CA,USA,Home Office,2022-06-05
+C0002,Customer_2,customer2@email.com,555-3780,San Antonio,NY,USA,Consumer,2022-04-17
+C0003,Customer_3,customer3@email.com,555-8423,Los Angeles,TX,USA,Corporate,2023-09-25
+C0004,Customer_4,customer4@email.com,555-3871,San Diego,TX,USA,Corporate,2020-12-05
+C0005,Customer_5,customer5@email.com,555-1660,Philadelphia,CA,USA,Consumer,2020-07-22
+C0006,Customer_6,customer6@email.com,555-7242,Chicago,CA,USA,Consumer,2020-06-09
+C0007,Customer_7,customer7@email.com,555-2132,Dallas,TX,USA,Consumer,2021-01-26
+C0008,Customer_8,customer8@email.com,555-1699,Phoenix,CA,USA,Consumer,2022-02-07
+C0009,Customer_9,customer9@email.com,555-8470,San Diego,TX,USA,Consumer,2021-07-28
+C0010,Customer_10,customer10@email.com,555-7297,San Antonio,NY,USA,Consumer,2021-06-17
+C0011,Customer_11,customer11@email.com,555-8812,San Diego,AZ,USA,Consumer,2022-12-29
+C0012,Customer_12,customer12@email.com,555-5557,San Antonio,TX,USA,Corporate,2022-06-11
+C0013,Customer_13,customer13@email.com,555-3179,Chicago,TX,USA,Corporate,2021-02-08
+C0014,Customer_14,customer14@email.com,555-9275,Los Angeles,NY,USA,Home Office,2021-08-30
+C0015,Customer_15,customer15@email.com,555-2422,San Antonio,TX,USA,Consumer,2022-04-07
+C0016,Customer_16,customer16@email.com,555-4180,Chicago,AZ,USA,Corporate,2023-02-17
+C0017,Customer_17,customer17@email.com,555-5316,Chicago,CA,USA,Home Office,2021-11-20
+C0018,Customer_18,customer18@email.com,555-7696,Los Angeles,CA,USA,Corporate,2022-06-20
+C0019,Customer_19,customer19@email.com,555-1614,Houston,CA,USA,Consumer,2023-05-25
+C0020,Customer_20,customer20@email.com,555-5570,San Diego,IL,USA,Corporate,2020-02-25
+C0021,Customer_21,customer21@email.com,555-1270,New York,CA,USA,Consumer,2020-12-31
+C0022,Customer_22,customer22@email.com,555-3468,New York,NY,USA,Consumer,2021-03-30
+C0023,Customer_23,customer23@email.com,555-4607,Phoenix,CA,USA,Corporate,2020-04-13
+C0024,Customer_24,customer24@email.com,555-4075,Phoenix,TX,USA,Corporate,2020-03-17
+C0025,Customer_25,customer25@email.com,555-1289,New York,CA,USA,Consumer,2020-08-17
+C0026,Customer_26,customer26@email.com,555-9120,Philadelphia,CA,USA,Home Office,2023-07-05
+C0027,Customer_27,customer27@email.com,555-7614,New York,PA,USA,Corporate,2023-07-11
+C0028,Customer_28,customer28@email.com,555-4252,Phoenix,IL,USA,Consumer,2020-11-26
+C0029,Customer_29,customer29@email.com,555-8415,Dallas,TX,USA,Home Office,2023-04-20
+C0030,Customer_30,customer30@email.com,555-7771,Phoenix,CA,USA,Consumer,2022-06-11
+C0031,Customer_31,customer31@email.com,555-1278,Philadelphia,IL,USA,Home Office,2021-11-18
+C0032,Customer_32,customer32@email.com,555-1580,San Diego,CA,USA,Consumer,2020-01-27
+C0033,Customer_33,customer33@email.com,555-5958,New York,PA,USA,Consumer,2023-07-23
+C0034,Customer_34,customer34@email.com,555-9445,Los Angeles,NY,USA,Corporate,2020-10-25
+C0035,Customer_35,customer35@email.com,555-5276,Dallas,TX,USA,Corporate,2022-08-14
+C0036,Customer_36,customer36@email.com,555-8997,Chicago,CA,USA,Corporate,2022-03-09
+C0037,Customer_37,customer37@email.com,555-5776,Philadelphia,CA,USA,Home Office,2023-01-19
+C0038,Customer_38,customer38@email.com,555-1824,Phoenix,IL,USA,Corporate,2021-04-24
+C0039,Customer_39,customer39@email.com,555-4832,Los Angeles,CA,USA,Corporate,2021-07-26
+C0040,Customer_40,customer40@email.com,555-9891,San Antonio,NY,USA,Home Office,2021-04-02
+C0041,Customer_41,customer41@email.com,555-6445,Houston,TX,USA,Corporate,2020-12-30
+C0042,Customer_42,customer42@email.com,555-2380,New York,PA,USA,Consumer,2022-05-08
+C0043,Customer_43,customer43@email.com,555-7534,Houston,TX,USA,Home Office,2020-12-16
+C0044,Customer_44,customer44@email.com,555-4156,Philadelphia,TX,USA,Consumer,2023-11-24
+C0045,Customer_45,customer45@email.com,555-5307,San Antonio,NY,USA,Corporate,2020-09-09
+C0046,Customer_46,customer46@email.com,555-6634,San Antonio,NY,USA,Home Office,2022-02-19
+C0047,Customer_47,customer47@email.com,555-9575,San Antonio,PA,USA,Corporate,2022-03-13
+C0048,Customer_48,customer48@email.com,555-6810,Chicago,AZ,USA,Corporate,2022-10-08
+C0049,Customer_49,customer49@email.com,555-9533,Philadelphia,TX,USA,Corporate,2021-04-03
+C0050,Customer_50,customer50@email.com,555-6934,San Diego,CA,USA,Consumer,2022-07-05
+C0051,Customer_51,customer51@email.com,555-4109,Houston,CA,USA,Home Office,2021-05-13
+C0052,Customer_52,customer52@email.com,555-5082,San Diego,AZ,USA,Consumer,2022-08-07
+C0053,Customer_53,customer53@email.com,555-4240,Los Angeles,CA,USA,Consumer,2021-05-22
+C0054,Customer_54,customer54@email.com,555-7028,San Jose,CA,USA,Consumer,2023-08-20
+C0055,Customer_55,customer55@email.com,555-2849,Dallas,PA,USA,Corporate,2021-05-15
+C0056,Customer_56,customer56@email.com,555-9497,Dallas,CA,USA,Consumer,2022-03-13
+C0057,Customer_57,customer57@email.com,555-3749,San Diego,CA,USA,Home Office,2021-08-20
+C0058,Customer_58,customer58@email.com,555-7680,San Jose,TX,USA,Consumer,2020-06-14
+C0059,Customer_59,customer59@email.com,555-1205,San Jose,CA,USA,Consumer,2023-12-09
+C0060,Customer_60,customer60@email.com,555-8352,New York,AZ,USA,Consumer,2021-04-06
+C0061,Customer_61,customer61@email.com,555-5591,Los Angeles,CA,USA,Consumer,2022-07-08
+C0062,Customer_62,customer62@email.com,555-4450,Philadelphia,CA,USA,Corporate,2020-04-23
+C0063,Customer_63,customer63@email.com,555-8214,San Jose,PA,USA,Consumer,2023-12-27
+C0064,Customer_64,customer64@email.com,555-4811,Phoenix,CA,USA,Consumer,2022-09-18
+C0065,Customer_65,customer65@email.com,555-6141,Dallas,TX,USA,Consumer,2023-10-11
+C0066,Customer_66,customer66@email.com,555-9501,Phoenix,TX,USA,Consumer,2020-07-25
+C0067,Customer_67,customer67@email.com,555-3708,Los Angeles,PA,USA,Consumer,2023-06-12
+C0068,Customer_68,customer68@email.com,555-2991,San Jose,TX,USA,Consumer,2023-10-10
+C0069,Customer_69,customer69@email.com,555-9463,Houston,PA,USA,Corporate,2021-05-29
+C0070,Customer_70,customer70@email.com,555-4273,Dallas,CA,USA,Home Office,2023-05-16
+C0071,Customer_71,customer71@email.com,555-5538,New York,TX,USA,Corporate,2021-12-09
+C0072,Customer_72,customer72@email.com,555-9712,New York,NY,USA,Home Office,2023-02-22
+C0073,Customer_73,customer73@email.com,555-4722,San Antonio,TX,USA,Consumer,2020-05-17
+C0074,Customer_74,customer74@email.com,555-4551,Chicago,IL,USA,Consumer,2020-12-04
+C0075,Customer_75,customer75@email.com,555-3832,San Jose,PA,USA,Home Office,2021-06-20
+C0076,Customer_76,customer76@email.com,555-6679,Los Angeles,CA,USA,Consumer,2020-03-08
+C0077,Customer_77,customer77@email.com,555-7579,Dallas,TX,USA,Home Office,2021-01-17
+C0078,Customer_78,customer78@email.com,555-1152,Chicago,NY,USA,Consumer,2020-01-19
+C0079,Customer_79,customer79@email.com,555-6754,Los Angeles,PA,USA,Consumer,2021-11-13
+C0080,Customer_80,customer80@email.com,555-3800,San Diego,PA,USA,Consumer,2020-03-14
+C0081,Customer_81,customer81@email.com,555-6310,San Jose,AZ,USA,Corporate,2021-07-26
+C0082,Customer_82,customer82@email.com,555-3610,Philadelphia,AZ,USA,Corporate,2022-07-27
+C0083,Customer_83,customer83@email.com,555-2104,Philadelphia,NY,USA,Corporate,2023-07-23
+C0084,Customer_84,customer84@email.com,555-8361,San Jose,CA,USA,Consumer,2022-12-07
+C0085,Customer_85,customer85@email.com,555-5199,San Antonio,AZ,USA,Consumer,2020-07-29
+C0086,Customer_86,customer86@email.com,555-4854,San Antonio,CA,USA,Consumer,2022-05-04
+C0087,Customer_87,customer87@email.com,555-8263,Philadelphia,TX,USA,Consumer,2021-10-12
+C0088,Customer_88,customer88@email.com,555-2914,Houston,IL,USA,Home Office,2022-09-20
+C0089,Customer_89,customer89@email.com,555-8365,Dallas,TX,USA,Consumer,2021-11-25
+C0090,Customer_90,customer90@email.com,555-4072,Philadelphia,IL,USA,Home Office,2021-06-23
+C0091,Customer_91,customer91@email.com,555-1406,Houston,IL,USA,Home Office,2023-04-29
+C0092,Customer_92,customer92@email.com,555-1166,Chicago,TX,USA,Consumer,2023-08-31
+C0093,Customer_93,customer93@email.com,555-1508,Houston,AZ,USA,Corporate,2022-06-19
+C0094,Customer_94,customer94@email.com,555-2661,Chicago,NY,USA,Consumer,2022-02-18
+C0095,Customer_95,customer95@email.com,555-4664,Los Angeles,TX,USA,Consumer,2023-02-10
+C0096,Customer_96,customer96@email.com,555-4489,Phoenix,CA,USA,Consumer,2020-06-18
+C0097,Customer_97,customer97@email.com,555-1680,Los Angeles,CA,USA,Corporate,2022-11-03
+C0098,Customer_98,customer98@email.com,555-3524,Philadelphia,TX,USA,Consumer,2020-10-14
+C0099,Customer_99,customer99@email.com,555-3120,Chicago,TX,USA,Corporate,2020-07-07
+C0100,Customer_100,customer100@email.com,555-6260,Philadelphia,AZ,USA,Corporate,2022-07-02
+C0101,Customer_101,customer101@email.com,555-5357,San Jose,CA,USA,Consumer,2023-03-24
+C0102,Customer_102,customer102@email.com,555-2363,Dallas,TX,USA,Corporate,2021-11-24
+C0103,Customer_103,customer103@email.com,555-3292,New York,CA,USA,Corporate,2022-06-06
+C0104,Customer_104,customer104@email.com,555-2538,Philadelphia,TX,USA,Consumer,2021-04-15
+C0105,Customer_105,customer105@email.com,555-4408,Dallas,TX,USA,Consumer,2023-01-03
+C0106,Customer_106,customer106@email.com,555-8742,Houston,TX,USA,Corporate,2020-10-03
+C0107,Customer_107,customer107@email.com,555-9752,Los Angeles,AZ,USA,Consumer,2022-07-28
+C0108,Customer_108,customer108@email.com,555-2903,Houston,TX,USA,Corporate,2023-09-28
+C0109,Customer_109,customer109@email.com,555-1174,New York,CA,USA,Consumer,2023-12-19
+C0110,Customer_110,customer110@email.com,555-3230,Chicago,NY,USA,Consumer,2021-07-24
+C0111,Customer_111,customer111@email.com,555-5287,San Jose,CA,USA,Consumer,2022-05-06
+C0112,Customer_112,customer112@email.com,555-5160,Dallas,CA,USA,Consumer,2022-09-27
+C0113,Customer_113,customer113@email.com,555-8106,San Jose,TX,USA,Corporate,2023-04-20
+C0114,Customer_114,customer114@email.com,555-4171,Phoenix,NY,USA,Consumer,2021-04-02
+C0115,Customer_115,customer115@email.com,555-2567,Philadelphia,NY,USA,Corporate,2022-07-06
+C0116,Customer_116,customer116@email.com,555-2151,Chicago,AZ,USA,Home Office,2022-04-12
+C0117,Customer_117,customer117@email.com,555-8619,Phoenix,TX,USA,Corporate,2022-12-23
+C0118,Customer_118,customer118@email.com,555-7033,San Diego,PA,USA,Corporate,2022-04-18
+C0119,Customer_119,customer119@email.com,555-9560,Philadelphia,IL,USA,Consumer,2023-07-07
+C0120,Customer_120,customer120@email.com,555-5946,Houston,IL,USA,Consumer,2020-07-11
+C0121,Customer_121,customer121@email.com,555-9234,Los Angeles,TX,USA,Corporate,2021-09-07
+C0122,Customer_122,customer122@email.com,555-2907,Dallas,PA,USA,Consumer,2021-02-09
+C0123,Customer_123,customer123@email.com,555-4490,New York,TX,USA,Corporate,2022-07-31
+C0124,Customer_124,customer124@email.com,555-3535,New York,PA,USA,Consumer,2021-12-21
+C0125,Customer_125,customer125@email.com,555-5173,Houston,AZ,USA,Corporate,2020-04-02
+C0126,Customer_126,customer126@email.com,555-2293,San Antonio,CA,USA,Home Office,2021-03-05
+C0127,Customer_127,customer127@email.com,555-5769,New York,TX,USA,Home Office,2021-10-15
+C0128,Customer_128,customer128@email.com,555-5796,Dallas,NY,USA,Corporate,2023-12-28
+C0129,Customer_129,customer129@email.com,555-7871,Houston,TX,USA,Corporate,2023-11-28
+C0130,Customer_130,customer130@email.com,555-3972,Chicago,IL,USA,Corporate,2021-03-09
+C0131,Customer_131,customer131@email.com,555-4922,New York,TX,USA,Corporate,2023-02-09
+C0132,Customer_132,customer132@email.com,555-5997,San Jose,PA,USA,Consumer,2021-01-09
+C0133,Customer_133,customer133@email.com,555-8032,Houston,TX,USA,Consumer,2022-12-18
+C0134,Customer_134,customer134@email.com,555-1992,Dallas,AZ,USA,Consumer,2022-12-02
+C0135,Customer_135,customer135@email.com,555-9112,San Jose,TX,USA,Home Office,2020-07-25
+C0136,Customer_136,customer136@email.com,555-6287,Philadelphia,TX,USA,Consumer,2022-02-18
+C0137,Customer_137,customer137@email.com,555-3240,Philadelphia,TX,USA,Corporate,2023-08-12
+C0138,Customer_138,customer138@email.com,555-2476,New York,NY,USA,Corporate,2023-02-15
+C0139,Customer_139,customer139@email.com,555-7426,San Jose,TX,USA,Corporate,2021-06-15
+C0140,Customer_140,customer140@email.com,555-1389,Los Angeles,CA,USA,Corporate,2023-05-30
+C0141,Customer_141,customer141@email.com,555-1999,Philadelphia,AZ,USA,Consumer,2020-06-14
+C0142,Customer_142,customer142@email.com,555-2855,Los Angeles,CA,USA,Corporate,2021-10-04
+C0143,Customer_143,customer143@email.com,555-9125,Chicago,AZ,USA,Home Office,2023-03-25
+C0144,Customer_144,customer144@email.com,555-9850,Houston,PA,USA,Consumer,2023-04-22
+C0145,Customer_145,customer145@email.com,555-3763,Phoenix,CA,USA,Consumer,2020-03-30
+C0146,Customer_146,customer146@email.com,555-4663,Dallas,PA,USA,Corporate,2023-01-22
+C0147,Customer_147,customer147@email.com,555-5986,Houston,PA,USA,Home Office,2020-01-13
+C0148,Customer_148,customer148@email.com,555-2481,Dallas,NY,USA,Consumer,2022-08-30
+C0149,Customer_149,customer149@email.com,555-8256,San Jose,NY,USA,Corporate,2022-03-15
+C0150,Customer_150,customer150@email.com,555-4731,Chicago,CA,USA,Home Office,2022-08-02

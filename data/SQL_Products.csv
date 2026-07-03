@@ -1,0 +1,51 @@
+Product_ID,Product_Name,Category,Unit_Price,Stock_Quantity,Supplier
+P0001,Laptop Pro 15,Technology,1299.99,75,FurnitureCo
+P0002,Wireless Mouse,Technology,29.99,45,FurnitureCo
+P0003,USB-C Cable,Technology,12.99,191,OfficeMax
+P0004,Mechanical Keyboard,Technology,89.99,35,OfficeMax
+P0005,"Monitor 27""",Technology,349.99,84,GlobalSupply
+P0006,Webcam HD,Technology,79.99,117,OfficeMax
+P0007,Headphones,Technology,149.99,177,OfficeMax
+P0008,Desk Lamp,Furniture,45.99,52,FurnitureCo
+P0009,Office Chair,Furniture,299.99,159,GlobalSupply
+P0010,Standing Desk,Furniture,499.99,157,OfficeMax
+P0011,Notebook Set,Office Supplies,15.99,17,OfficeMax
+P0012,Pen Pack,Office Supplies,8.99,38,GlobalSupply
+P0013,Stapler,Office Supplies,12.99,49,MegaStore
+P0014,Paper Ream,Office Supplies,24.99,167,GlobalSupply
+P0015,Binder Set,Office Supplies,18.99,137,FurnitureCo
+P0016,Calculator,Office Supplies,25.99,93,MegaStore
+P0017,Desk Organizer,Office Supplies,32.99,125,TechCorp
+P0018,File Cabinet,Furniture,189.99,192,GlobalSupply
+P0019,Whiteboard,Office Supplies,75.99,153,FurnitureCo
+P0020,Marker Set,Office Supplies,14.99,183,MegaStore
+P0021,"Tablet 10""",Technology,499.99,71,GlobalSupply
+P0022,Phone Case,Technology,19.99,16,OfficeMax
+P0023,Screen Protector,Technology,9.99,54,GlobalSupply
+P0024,Charger Cable,Technology,24.99,196,TechCorp
+P0025,Power Bank,Technology,45.99,193,GlobalSupply
+P0026,Bluetooth Speaker,Technology,69.99,185,MegaStore
+P0027,Laptop Bag,Technology,59.99,164,MegaStore
+P0028,Mouse Pad,Office Supplies,12.99,190,GlobalSupply
+P0029,Desk Mat,Office Supplies,29.99,97,MegaStore
+P0030,Cable Organizer,Office Supplies,15.99,82,OfficeMax
+P0031,Printer,Technology,299.99,172,GlobalSupply
+P0032,Scanner,Technology,249.99,188,OfficeMax
+P0033,Shredder,Technology,149.99,46,OfficeMax
+P0034,Label Maker,Technology,89.99,128,FurnitureCo
+P0035,Coffee Maker,Furniture,129.99,66,GlobalSupply
+P0036,Water Bottle,Office Supplies,19.99,17,MegaStore
+P0037,Desk Plant,Office Supplies,24.99,104,OfficeMax
+P0038,Calendar,Office Supplies,12.99,126,FurnitureCo
+P0039,Planner,Office Supplies,29.99,119,GlobalSupply
+P0040,Sticky Notes,Office Supplies,6.99,29,GlobalSupply
+P0041,Highlighter Set,Office Supplies,11.99,133,TechCorp
+P0042,Eraser Pack,Office Supplies,5.99,62,TechCorp
+P0043,Scissors,Office Supplies,8.99,128,OfficeMax
+P0044,Tape Dispenser,Office Supplies,9.99,21,TechCorp
+P0045,Ruler,Office Supplies,4.99,186,OfficeMax
+P0046,Backpack,Office Supplies,79.99,26,MegaStore
+P0047,Lunchbox,Office Supplies,24.99,73,OfficeMax
+P0048,Thermos,Office Supplies,34.99,51,TechCorp
+P0049,Umbrella,Office Supplies,19.99,103,MegaStore
+P0050,Clock,Furniture,39.99,166,TechCorp
