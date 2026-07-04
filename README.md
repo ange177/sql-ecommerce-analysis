@@ -24,17 +24,6 @@ Orders (500, fact table)
  └─→ Returns (30) — Reason, Status, Refund_Amount
 ```
 
-## Tools & Techniques
-
-- **SQL (SQLite dialect, portable to T-SQL/BigQuery)** — run and validated against the actual dataset with `sqlite3`; also written for Azure Data Studio / SQL Server workflows
-- Multi-table **JOINs** (inner + left) across all 5 tables
-- **CTEs** (`WITH`) to stage intermediate aggregations before ranking/filtering
-- **Window functions**: `RANK()` (top account per segment), `NTILE()` (revenue quartiles), `LAG()` (month-over-month growth), running `SUM() OVER` (year-to-date revenue)
-- **CASE** expressions for customer value tiering
-- Scalar **subqueries** for % share-of-total calculations
-- **Date functions** (`strftime`, `julianday`) for monthly trends and ship-time calculations
-- Deliberate **data-limitation handling** — Returns has no product-level FK, so return analysis is kept at the grain the schema actually supports instead of fabricating a category breakdown (see [`docs/data_dictionary.md`](docs/data_dictionary.md))
-
 ## Key Findings
 
 1. **Revenue collapsed 68.5% in one month.** January ($37,106) fell to February ($11,691) — the single largest swing of the year. No comparable recovery trigger is visible in the data, which means this needs an incident review (marketing pause? stockout? site issue?), plus an early-warning alert for any future month that drops more than ~25% MoM.
@@ -64,31 +53,7 @@ sql-ecommerce-analysis/
 └── README.md
 ```
 
-## How to Run
-
-Any SQL engine works; steps below use SQLite (zero setup) since that's what this analysis was built and verified against.
-
-```bash
-# 1. Create the database and load the schema
-sqlite3 retail.db < sql/00_schema.sql
-
-# 2. Load the CSVs (order matters: parents before children)
-sqlite3 retail.db <<'EOF'
-.mode csv
-.import --skip 1 data/SQL_Customers.csv Customers
-.import --skip 1 data/SQL_Products.csv Products
-.import --skip 1 data/SQL_Orders.csv Orders
-.import --skip 1 data/SQL_Order_Items.csv Order_Items
-.import --skip 1 data/SQL_Returns.csv Returns
-EOF
-
-# 3. Run any analysis file
-sqlite3 -header -column retail.db < sql/01_revenue_kpis.sql
-```
-
-To run on **Azure Data Studio / SQL Server** or **BigQuery** instead: use `sql/00_schema.sql` as a starting DDL (adjust `TEXT`/`NUMERIC` types to `VARCHAR`/`DECIMAL` as needed), import the CSVs via each tool's import wizard, then run `sql/01`–`07` — the only dialect-specific functions used are `strftime`/`julianday` (SQLite), which map to `FORMAT`/`DATEDIFF` in T-SQL or `FORMAT_DATE`/`DATE_DIFF` in BigQuery.
-
-## Skills Demonstrated
+## Project Impact & Skills Demonstrated
 
 - Business-first framing: translating raw transactional data into decisions a manager can act on
 - Relational data modeling and star-schema reasoning
