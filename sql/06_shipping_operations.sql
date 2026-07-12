@@ -22,10 +22,10 @@ ORDER BY Orders DESC;
 --   Next Day  15.8% of orders | 3.4 days to ship | $763.89 AOV
 --   Ground     7.0% of orders | 3.1 days to ship | $646.68 AOV
 --
--- Actionable — this is a real operational red flag, not a technicality:
+-- Actionable: this is a real operational red flag, not a technicality.
 -- "Next Day" dispatches in 3.4 days on average, statistically indistinguishable
 -- from Standard (3.6 days) and Express (3.5 days). Customers paying a premium
 -- for expedited shipping are not receiving a materially faster dispatch.
 -- Either the fulfillment process for premium tiers needs fixing, or the
--- premium pricing needs to be re-justified/relabeled — as-is it's a customer
+-- premium pricing needs to be re-justified/relabeled. As-is, it's a customer
 -- trust and SLA-compliance risk.

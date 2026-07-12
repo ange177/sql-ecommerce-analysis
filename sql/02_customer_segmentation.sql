@@ -19,7 +19,7 @@ WHERE o.Status <> 'Cancelled'   -- exclude unfulfilled orders from earned revenu
 GROUP BY c.Segment
 ORDER BY Net_Revenue DESC;
 -- Result: Consumer 67 cust / $172,254 ($2,571/ea) | Corporate 53 cust / $126,721 ($2,391/ea)
---         Home Office 25 cust / $68,431 ($2,737/ea) — smallest base, highest revenue/customer
+--         Home Office 25 cust / $68,431 ($2,737/ea): smallest base, highest revenue/customer
 
 
 -- ----------------------------------------------------------------------------
@@ -72,7 +72,7 @@ SELECT
     SUM(CASE WHEN Order_Count > 1 THEN 1 ELSE 0 END)                          AS Repeat_Customers,
     ROUND(SUM(CASE WHEN Order_Count > 1 THEN 1 ELSE 0 END) * 100.0 / COUNT(*), 1) AS Repeat_Purchase_Rate_Pct
 FROM order_counts;
--- Result: 126 of 145 customers (86.9%) are repeat buyers — retention is a
+-- Result: 126 of 145 customers (86.9%) are repeat buyers. Retention is a
 -- genuine strength; the acquisition funnel isn't the bottleneck, so growth
 -- initiatives should lean toward increasing basket size/frequency, not just
 -- customer acquisition spend.

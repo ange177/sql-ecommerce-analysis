@@ -1,14 +1,14 @@
 # Data Dictionary
 
-Synthetic online-retail dataset covering 2023-01-01 to 2023-12-31: 150 customers, 50 products, 500 orders, 1,539 order line items, 30 returns. All customer names/emails are generated placeholders — no real personal data.
+Generated online-retail dataset covering 2023-01-01 to 2023-12-31: 150 customers, 50 products, 500 orders, 1,539 order line items, 30 returns. All customer names/emails are generated placeholders, no real personal data.
 
 ## Customers (`SQL_Customers.csv`)
 | Column | Type | Notes |
 |---|---|---|
 | Customer_ID | text | PK, e.g. `C0001` |
 | Customer_Name | text | |
-| Email | text | synthetic |
-| Phone | text | synthetic |
+| Email | text | generated placeholder |
+| Phone | text | generated placeholder |
 | City / State / Country | text | |
 | Segment | text | `Consumer`, `Corporate`, `Home Office` |
 | Registration_Date | date | |
@@ -31,7 +31,7 @@ Synthetic online-retail dataset covering 2023-01-01 to 2023-12-31: 150 customers
 | Order_Date | date | |
 | Ship_Date | date | |
 | Ship_Mode | text | `Standard`, `Express`, `Next Day`, `Ground` |
-| Status | text | `Delivered`, `Shipped`, `Processing`, `Cancelled` — **Cancelled orders are excluded from recognized-revenue KPIs throughout this project** |
+| Status | text | `Delivered`, `Shipped`, `Processing`, `Cancelled`. **Cancelled orders are excluded from recognized-revenue KPIs throughout this project** |
 
 ## Order_Items (`SQL_Order_Items.csv`)
 | Column | Type | Notes |
@@ -44,7 +44,7 @@ Synthetic online-retail dataset covering 2023-01-01 to 2023-12-31: 150 customers
 | Discount | numeric | discount rate (0.00-1.00) |
 | Subtotal | numeric | `Quantity * Unit_Price` |
 | Discount_Amount | numeric | `Subtotal * Discount` |
-| Total | numeric | `Subtotal - Discount_Amount` — the net-revenue figure used in every query |
+| Total | numeric | `Subtotal - Discount_Amount`, the net-revenue figure used in every query |
 
 ## Returns (`SQL_Returns.csv`)
 | Column | Type | Notes |

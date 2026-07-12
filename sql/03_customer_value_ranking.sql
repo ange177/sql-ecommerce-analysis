@@ -2,7 +2,7 @@
 -- 03_customer_value_ranking.sql
 -- Business question: "Who is our #1 account in each segment, and how
 -- concentrated is our revenue among a handful of customers?"
--- Demonstrates window functions (RANK, NTILE, running SUM) — the kind of
+-- Demonstrates window functions (RANK, NTILE, running SUM), the kind of
 -- ranking/concentration analysis a spreadsheet VLOOKUP can't do cleanly.
 -- ============================================================================
 
@@ -69,6 +69,6 @@ FROM quartiled
 GROUP BY Spend_Quartile
 ORDER BY Spend_Quartile;
 -- Result: Quartile 1 (top 25%, 37 customers) drives 55.5% of net revenue
--- ($204,072 of $367,406) — confirms the concentration flagged in
--- 02_customer_segmentation.sql and quantifies the downside risk if a
+-- ($204,072 of $367,406), confirming the concentration flagged in
+-- 02_customer_segmentation.sql and quantifying the downside risk if a
 -- handful of top accounts churn.

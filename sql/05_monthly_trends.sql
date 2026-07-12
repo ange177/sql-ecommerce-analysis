@@ -3,7 +3,7 @@
 -- Business question: "Is revenue growing, and did anything unusual happen
 -- during the year that leadership should have caught sooner?"
 -- Demonstrates LAG() for period-over-period growth and a running SUM()
--- window for year-to-date tracking — the two window functions a monthly
+-- window for year-to-date tracking: the two window functions a monthly
 -- ops review actually needs.
 -- ============================================================================
 
@@ -32,7 +32,7 @@ SELECT
     ROUND(SUM(Net_Revenue) OVER (ORDER BY Month), 2) AS YTD_Revenue
 FROM monthly
 ORDER BY Month;
--- Result: Jan $37,106 -> Feb $11,691, a -68.5% month-over-month collapse —
+-- Result: Jan $37,106 -> Feb $11,691, a -68.5% month-over-month collapse:
 -- the single largest swing in the year, more than 2x any other month's move.
 -- Revenue recovers through March-July (peaking at $43,232 in July) then
 -- trends down again into Q4.

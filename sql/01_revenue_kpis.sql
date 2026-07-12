@@ -2,7 +2,7 @@
 -- 01_revenue_kpis.sql
 -- Business question: "What's the top-line health of the business right now?"
 -- A stakeholder opening this dashboard cares about recognized revenue (money
--- actually earned), not gross bookings that include cancelled orders — so
+-- actually earned), not gross bookings that include cancelled orders, so
 -- every KPI below is split to make that distinction explicit rather than
 -- silently inflating the headline number.
 -- ============================================================================

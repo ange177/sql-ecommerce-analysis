@@ -1,11 +1,11 @@
 -- ============================================================================
 -- 00_schema.sql
--- Database: Online Retail 2023 (SQLite dialect — portable to T-SQL/BigQuery
+-- Database: Online Retail 2023 (SQLite dialect, portable to T-SQL/BigQuery
 -- with minor type changes, see docs/data_dictionary.md)
 --
 -- Star-schema layout: Orders is the fact table, Customers/Products are
 -- dimensions, Order_Items is the line-item grain, Returns tracks post-sale
--- refunds against an Order (not an individual line item — see docs/notes.md
+-- refunds against an Order (not an individual line item; see docs/notes.md
 -- for why category-level return analysis isn't attempted in sql/07).
 -- ============================================================================
 
