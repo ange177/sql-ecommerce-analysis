@@ -1,4 +1,4 @@
-# SQL E-Commerce Analysis: Revenue, Customer & Operations Intelligence
+# SQL Analysis for E-Commerce Revenue & Customer Intelligence
 
 A SQL-only business intelligence analysis of a year of e-commerce trading, turning five raw transaction tables into revenue KPIs, customer segmentation, and an early-warning finding on a 68.5% month-over-month revenue collapse.
 
